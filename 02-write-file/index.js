@@ -8,18 +8,17 @@ stdout.write("Please write some text\n");
 
 stdin.on("data", (data)=> {  
     const input = data.toString().trim();
+
     if(input.toLowerCase() === 'exit') {  
         stdout.write('Спасибо что были с нами');
         process.exit();
-    }
-    
-    content = Buffer.from(data, "utf-8");
-    stdout.write(content);
-    fs.writeFile(path.resolve(__dirname,'text.txt'),content, (err)=> {  
-        if(err) {  
+    } /// for exiting if exit is typed 
+
+    fs.appendFile(filePath, input + '\n', (err) => {  
+        if(err) { 
             throw err;
         }
-    } );
+    })
 })
 
 
