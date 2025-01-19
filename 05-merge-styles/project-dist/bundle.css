@@ -1,4 +1,3 @@
-
 *,
 *:before,
 *:after {
@@ -541,41 +540,6 @@ body {
     1515px 355px 0 0px rgba(255, 255, 255, 0.464),
     1190px 1394px 0 0px rgba(255, 255, 255, 0.357);
   border-radius: 100px;
-}
-
-.pluto {
-  height: 780px;
-  width: 780px;
-  margin-top: -450px;
-  margin-left: -320px;
-  animation: orb 7439.70741s linear infinite;
-}
-
-.pluto:before {
-  height: 3px;
-  width: 3px;
-  background: #fff;
-  margin-top: -1.5px;
-  margin-left: -1.5px;
-}
-
-.hide {
-  display: none;
-}
-
-.links {
-  margin-top: 5px !important;
-  font-size: 1em !important;
-}
-
-@keyframes orb {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(-360deg);
-  }
 }
 
 .solar-syst div {
@@ -1196,226 +1160,38 @@ body {
     36px 38px 0 -104px rgba(255, 255, 255, 0.406);
 }
 
-#Vector_39 {
-  animation: swing ease-in-out 1s infinite alternate;
-  transform-origin: center 0px;
-  transform-box: fill-box;
-  float: left;
+.pluto {
+  height: 780px;
+  width: 780px;
+  margin-top: -450px;
+  margin-left: -320px;
+  animation: orb 7439.70741s linear infinite;
 }
 
-#Vector_40 {
-  animation: swing ease-in-out 1s infinite alternate;
-  transform-origin: center -20px;
-  transform-box: fill-box;
-  float: left;
+.pluto:before {
+  height: 3px;
+  width: 3px;
+  background: #fff;
+  margin-top: -1.5px;
+  margin-left: -1.5px;
 }
 
-.shap.one {
-  background-image: -moz-linear-gradient(140deg, #009688 0%, #009688 100%);
-  background-image: -webkit-linear-gradient(140deg, #009688 0%, #009688 100%);
-  background-image: -ms-linear-gradient(140deg, #009688 0%, #009688 100%);
-  width: 650px;
-  height: 510px;
-  top: -43%;
-  left: -58%;
+.hide {
+  display: none;
 }
 
-.shap {
-  position: absolute;
-  opacity: 0.05;
-  transform: rotate(45deg);
-  left: 90px;
-  z-index: -1;
-  border-radius: 45px;
+.links {
+  margin-top: 5px !important;
+  font-size: 1em !important;
 }
 
-#leaf12 {
-  -webkit-animation: shake-bottom 9s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    infinite both;
-  animation: shake-bottom 9s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
-    both;
-  transform-box: fill-box;
-}
-
-#leaf13 {
-  -webkit-animation: shake-bottom 8s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    infinite both;
-  animation: shake-bottom 8s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
-    both;
-  transform-box: fill-box;
-}
-
-#lef14 {
-  -webkit-animation: shake-bottom 7.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    infinite both;
-  animation: shake-bottom 7.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
-    both;
-  transform-box: fill-box;
-}
-
-#leaf15 {
-  -webkit-animation: shake-bottom 7s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    infinite both;
-  animation: shake-bottom 7s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
-    both;
-  transform-box: fill-box;
-}
-
-#leaf16 {
-  -webkit-animation: shake-bottom 6.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    infinite both;
-  animation: shake-bottom 6.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
-    both;
-  transform-box: fill-box;
-}
-
-#leaf17 {
-  -webkit-animation: shake-bottom 6s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    infinite both;
-  animation: shake-bottom 6s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
-    both;
-  transform-box: fill-box;
-}
-
-@-webkit-keyframes shake-bottom {
-  0%,
-  100% {
-    -webkit-transform: rotate(0deg);
+@keyframes orb {
+  from {
     transform: rotate(0deg);
-    -webkit-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
   }
-  10% {
-    -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
-  }
-  20%,
-  40%,
-  60% {
-    -webkit-transform: rotate(-4deg);
-    transform: rotate(-4deg);
-  }
-  30%,
-  50%,
-  70% {
-    -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
-  }
-  80% {
-    -webkit-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-  }
-  90% {
-    -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
-  }
-}
-@keyframes shake-bottom {
-  0%,
-  100% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
-  }
-  10% {
-    -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
-  }
-  20%,
-  40%,
-  60% {
-    -webkit-transform: rotate(-4deg);
-    transform: rotate(-4deg);
-  }
-  30%,
-  50%,
-  70% {
-    -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
-  }
-  80% {
-    -webkit-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-  }
-  90% {
-    -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
-  }
-}
 
-#Girl {
-  animation: swing ease-in-out 1s infinite alternate;
-  transform-origin: center -20px;
-  transform-box: fill-box;
-  float: left;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-@keyframes swing {
-  0% {
-    transform: rotate(9deg);
+  to {
+    transform: rotate(-360deg);
   }
-  100% {
-    transform: rotate(-9deg);
-  }
-}
-
-#Vector_38 {
-  animation: swing ease-in-out 1s infinite alternate;
-  transform-origin: center 0px;
-  transform-box: fill-box;
-  float: left;
-}
-
-.shap.two {
-  background-image: -moz-linear-gradient(140deg, #009688 0%, #009688 100%);
-  background-image: -webkit-linear-gradient(140deg, #009688 0%, #009688 100%);
-  background-image: -ms-linear-gradient(140deg, #009688 0%, #009688 100%);
-  width: 666px;
-  height: 330px;
-  top: -42%;
-  left: -15%;
-}
-
-.mauto {
-  margin: auto;
-}
-
-.bg-svg {
-  background-image: url(bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-  position: relative;
-  margin-bottom: 40px;
-}
-
-body {
-  background-color: #fafafa;
-}
-
-#Leaf1 {
-  -webkit-animation: shake-bottom 2s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    infinite both;
-  animation: shake-bottom 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
-    both;
-  transform-box: fill-box;
-}
-
-#leaf11 {
-  -webkit-animation: shake-bottom 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    infinite both;
-  animation: shake-bottom 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
-    both;
-  transform-box: fill-box;
-}
-
-#leaf10 {
-  -webkit-animation: shake-bottom 3s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    infinite both;
-  animation: shake-bottom 3s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
-    both;
-  transform-box: fill-box;
 }
 
